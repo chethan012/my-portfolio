@@ -2,11 +2,10 @@ import { useEffect, useState } from "react";
 import { BsArrowUpRightSquare, BsGithub } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import { ProjectType, projects } from "../data/projects";
-import Filter from "./Filter";
 import SlideUp from "./SlideUp";
 
 function Projects() {
-	const [selectedFilter, setSelectedFilter] = useState<string>("All");
+	const [selectedFilter, _] = useState<string>("All");
 	const [filteredProjects, setFilteredProjects] =
 		useState<ProjectType[]>(projects);
 

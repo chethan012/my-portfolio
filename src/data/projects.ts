@@ -1,15 +1,4 @@
-import aurora from "../assets/projects/aurora/main.png";
-import gentile from "../assets/projects/gentile/main1.jpg";
-import lego from "../assets/projects/lego-homage/main1.png";
-import linesc from "../assets/projects/linesc/main1.png";
-import listshop from "../assets/projects/list-shop/main.png";
-import pathfinding from "../assets/projects/pathfinding/main.png";
-import portfolio from "../assets/projects/portfolio/main2.png";
-import simpsons from "../assets/projects/simpsons-quotes/main1.png";
 import tictactoe from "../assets/projects/tictactoe/main1.png";
-import todo from "../assets/projects/todo-app/main.png";
-import weather from "../assets/projects/weather-app/main1.png";
-import w3l from "../assets/projects/what3letters/main1.png";
 
 export type ProjectType = {
   id: number;
